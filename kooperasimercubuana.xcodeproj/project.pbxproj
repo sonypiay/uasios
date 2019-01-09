@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBD798B721E65BB600C5EEC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD798B621E65BB600C5EEC5 /* AppDelegate.swift */; };
+		CBD798B921E65BB600C5EEC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD798B821E65BB600C5EEC5 /* ViewController.swift */; };
+		CBD798BC21E65BB600C5EEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD798BA21E65BB600C5EEC5 /* Main.storyboard */; };
+		CBD798BE21E65BB600C5EEC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD798BD21E65BB600C5EEC5 /* Assets.xcassets */; };
+		CBD798C121E65BB600C5EEC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD798BF21E65BB600C5EEC5 /* LaunchScreen.storyboard */; };
+		CBD798CC21E65BB700C5EEC5 /* kooperasimercubuanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD798CB21E65BB700C5EEC5 /* kooperasimercubuanaTests.swift */; };
+		CBD798D721E65BB700C5EEC5 /* kooperasimercubuanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD798D621E65BB700C5EEC5 /* kooperasimercubuanaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBD798C821E65BB600C5EEC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBD798AB21E65BB600C5EEC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBD798B221E65BB600C5EEC5;
+			remoteInfo = kooperasimercubuana;
+		};
+		CBD798D321E65BB700C5EEC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBD798AB21E65BB600C5EEC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBD798B221E65BB600C5EEC5;
+			remoteInfo = kooperasimercubuana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBD798B321E65BB600C5EEC5 /* kooperasimercubuana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kooperasimercubuana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD798B621E65BB600C5EEC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBD798B821E65BB600C5EEC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBD798BB21E65BB600C5EEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBD798BD21E65BB600C5EEC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBD798C021E65BB600C5EEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBD798C221E65BB600C5EEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD798C721E65BB600C5EEC5 /* kooperasimercubuanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kooperasimercubuanaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD798CB21E65BB700C5EEC5 /* kooperasimercubuanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kooperasimercubuanaTests.swift; sourceTree = "<group>"; };
+		CBD798CD21E65BB700C5EEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD798D221E65BB700C5EEC5 /* kooperasimercubuanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kooperasimercubuanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD798D621E65BB700C5EEC5 /* kooperasimercubuanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kooperasimercubuanaUITests.swift; sourceTree = "<group>"; };
+		CBD798D821E65BB700C5EEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBD798B021E65BB600C5EEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD798C421E65BB600C5EEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD798CF21E65BB700C5EEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBD798AA21E65BB500C5EEC5 = {
+			isa = PBXGroup;
+			children = (
+				CBD798B521E65BB600C5EEC5 /* kooperasimercubuana */,
+				CBD798CA21E65BB700C5EEC5 /* kooperasimercubuanaTests */,
+				CBD798D521E65BB700C5EEC5 /* kooperasimercubuanaUITests */,
+				CBD798B421E65BB600C5EEC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBD798B421E65BB600C5EEC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBD798B321E65BB600C5EEC5 /* kooperasimercubuana.app */,
+				CBD798C721E65BB600C5EEC5 /* kooperasimercubuanaTests.xctest */,
+				CBD798D221E65BB700C5EEC5 /* kooperasimercubuanaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBD798B521E65BB600C5EEC5 /* kooperasimercubuana */ = {
+			isa = PBXGroup;
+			children = (
+				CBD798B621E65BB600C5EEC5 /* AppDelegate.swift */,
+				CBD798B821E65BB600C5EEC5 /* ViewController.swift */,
+				CBD798BA21E65BB600C5EEC5 /* Main.storyboard */,
+				CBD798BD21E65BB600C5EEC5 /* Assets.xcassets */,
+				CBD798BF21E65BB600C5EEC5 /* LaunchScreen.storyboard */,
+				CBD798C221E65BB600C5EEC5 /* Info.plist */,
+			);
+			path = kooperasimercubuana;
+			sourceTree = "<group>";
+		};
+		CBD798CA21E65BB700C5EEC5 /* kooperasimercubuanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBD798CB21E65BB700C5EEC5 /* kooperasimercubuanaTests.swift */,
+				CBD798CD21E65BB700C5EEC5 /* Info.plist */,
+			);
+			path = kooperasimercubuanaTests;
+			sourceTree = "<group>";
+		};
+		CBD798D521E65BB700C5EEC5 /* kooperasimercubuanaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBD798D621E65BB700C5EEC5 /* kooperasimercubuanaUITests.swift */,
+				CBD798D821E65BB700C5EEC5 /* Info.plist */,
+			);
+			path = kooperasimercubuanaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBD798B221E65BB600C5EEC5 /* kooperasimercubuana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD798DB21E65BB700C5EEC5 /* Build configuration list for PBXNativeTarget "kooperasimercubuana" */;
+			buildPhases = (
+				CBD798AF21E65BB600C5EEC5 /* Sources */,
+				CBD798B021E65BB600C5EEC5 /* Frameworks */,
+				CBD798B121E65BB600C5EEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kooperasimercubuana;
+			productName = kooperasimercubuana;
+			productReference = CBD798B321E65BB600C5EEC5 /* kooperasimercubuana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBD798C621E65BB600C5EEC5 /* kooperasimercubuanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD798DE21E65BB700C5EEC5 /* Build configuration list for PBXNativeTarget "kooperasimercubuanaTests" */;
+			buildPhases = (
+				CBD798C321E65BB600C5EEC5 /* Sources */,
+				CBD798C421E65BB600C5EEC5 /* Frameworks */,
+				CBD798C521E65BB600C5EEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBD798C921E65BB600C5EEC5 /* PBXTargetDependency */,
+			);
+			name = kooperasimercubuanaTests;
+			productName = kooperasimercubuanaTests;
+			productReference = CBD798C721E65BB600C5EEC5 /* kooperasimercubuanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBD798D121E65BB700C5EEC5 /* kooperasimercubuanaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD798E121E65BB700C5EEC5 /* Build configuration list for PBXNativeTarget "kooperasimercubuanaUITests" */;
+			buildPhases = (
+				CBD798CE21E65BB700C5EEC5 /* Sources */,
+				CBD798CF21E65BB700C5EEC5 /* Frameworks */,
+				CBD798D021E65BB700C5EEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBD798D421E65BB700C5EEC5 /* PBXTargetDependency */,
+			);
+			name = kooperasimercubuanaUITests;
+			productName = kooperasimercubuanaUITests;
+			productReference = CBD798D221E65BB700C5EEC5 /* kooperasimercubuanaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBD798AB21E65BB600C5EEC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = macos_gue;
+				TargetAttributes = {
+					CBD798B221E65BB600C5EEC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CBD798C621E65BB600C5EEC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CBD798B221E65BB600C5EEC5;
+					};
+					CBD798D121E65BB700C5EEC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CBD798B221E65BB600C5EEC5;
+					};
+				};
+			};
+			buildConfigurationList = CBD798AE21E65BB600C5EEC5 /* Build configuration list for PBXProject "kooperasimercubuana" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBD798AA21E65BB500C5EEC5;
+			productRefGroup = CBD798B421E65BB600C5EEC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBD798B221E65BB600C5EEC5 /* kooperasimercubuana */,
+				CBD798C621E65BB600C5EEC5 /* kooperasimercubuanaTests */,
+				CBD798D121E65BB700C5EEC5 /* kooperasimercubuanaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBD798B121E65BB600C5EEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD798C121E65BB600C5EEC5 /* LaunchScreen.storyboard in Resources */,
+				CBD798BE21E65BB600C5EEC5 /* Assets.xcassets in Resources */,
+				CBD798BC21E65BB600C5EEC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD798C521E65BB600C5EEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD798D021E65BB700C5EEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBD798AF21E65BB600C5EEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD798B921E65BB600C5EEC5 /* ViewController.swift in Sources */,
+				CBD798B721E65BB600C5EEC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD798C321E65BB600C5EEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD798CC21E65BB700C5EEC5 /* kooperasimercubuanaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD798CE21E65BB700C5EEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD798D721E65BB700C5EEC5 /* kooperasimercubuanaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBD798C921E65BB600C5EEC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBD798B221E65BB600C5EEC5 /* kooperasimercubuana */;
+			targetProxy = CBD798C821E65BB600C5EEC5 /* PBXContainerItemProxy */;
+		};
+		CBD798D421E65BB700C5EEC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBD798B221E65BB600C5EEC5 /* kooperasimercubuana */;
+			targetProxy = CBD798D321E65BB700C5EEC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBD798BA21E65BB600C5EEC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD798BB21E65BB600C5EEC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBD798BF21E65BB600C5EEC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD798C021E65BB600C5EEC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBD798D921E65BB700C5EEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBD798DA21E65BB700C5EEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBD798DC21E65BB700C5EEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kooperasimercubuana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonydarmawanuas.kooperasimercubuana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBD798DD21E65BB700C5EEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kooperasimercubuana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonydarmawanuas.kooperasimercubuana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBD798DF21E65BB700C5EEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kooperasimercubuanaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonydarmawanuas.kooperasimercubuanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kooperasimercubuana.app/kooperasimercubuana";
+			};
+			name = Debug;
+		};
+		CBD798E021E65BB700C5EEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kooperasimercubuanaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonydarmawanuas.kooperasimercubuanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kooperasimercubuana.app/kooperasimercubuana";
+			};
+			name = Release;
+		};
+		CBD798E221E65BB700C5EEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kooperasimercubuanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonydarmawanuas.kooperasimercubuanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kooperasimercubuana;
+			};
+			name = Debug;
+		};
+		CBD798E321E65BB700C5EEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kooperasimercubuanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonydarmawanuas.kooperasimercubuanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kooperasimercubuana;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBD798AE21E65BB600C5EEC5 /* Build configuration list for PBXProject "kooperasimercubuana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD798D921E65BB700C5EEC5 /* Debug */,
+				CBD798DA21E65BB700C5EEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD798DB21E65BB700C5EEC5 /* Build configuration list for PBXNativeTarget "kooperasimercubuana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD798DC21E65BB700C5EEC5 /* Debug */,
+				CBD798DD21E65BB700C5EEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBD798DE21E65BB700C5EEC5 /* Build configuration list for PBXNativeTarget "kooperasimercubuanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD798DF21E65BB700C5EEC5 /* Debug */,
+				CBD798E021E65BB700C5EEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBD798E121E65BB700C5EEC5 /* Build configuration list for PBXNativeTarget "kooperasimercubuanaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD798E221E65BB700C5EEC5 /* Debug */,
+				CBD798E321E65BB700C5EEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBD798AB21E65BB600C5EEC5 /* Project object */;
+}
