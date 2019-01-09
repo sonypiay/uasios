@@ -8,19 +8,182 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="kooperasimercubuana" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="main_app" definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalPresentationStyle="currentContext" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="kooperasimercubuana" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Kooperasi Mercubuana" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Hvt-f0-kDs">
+                                <rect key="frame" x="161" y="264" width="278" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffv-jl-gh0">
+                                <rect key="frame" x="20" y="517" width="560" height="38"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Tambah Barang">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="RKR-Ny-JHz" kind="show" id="GHE-f9-zNz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCn-am-y9p">
+                                <rect key="frame" x="20" y="454" width="560" height="38"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Lihat Barang">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6j5-2h-tfK" kind="presentation" id="uTZ-kU-gaP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="NCn-am-y9p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3LS-98-mMI"/>
+                            <constraint firstItem="Hvt-f0-kDs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZGe-9w-8ce"/>
+                            <constraint firstItem="Ffv-jl-gh0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dwN-hg-R8g"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-68" y="135"/>
+        </scene>
+        <!--Tambah Barang Controller-->
+        <scene sceneID="ydN-g7-9tj">
+            <objects>
+                <viewController storyboardIdentifier="tambah_barang" definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalPresentationStyle="currentContext" id="RKR-Ny-JHz" customClass="TambahBarangController" customModule="kooperasimercubuana" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ESJ-c3-M6p"/>
+                        <viewControllerLayoutGuide type="bottom" id="QhK-1w-HxS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2IN-Jq-jbW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oE-Is-jEt">
+                                <rect key="frame" x="20" y="20" width="49" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Kembali">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="gfa-SU-kc3"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nama Barang" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Spt-ah-ZgK">
+                                <rect key="frame" x="20" y="226" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Tambah Barang" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMh-k4-Uen">
+                                <rect key="frame" x="231" y="122" width="138" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Merk Barang" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="RCk-ya-6OK">
+                                <rect key="frame" x="20" y="294" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Harga Barang" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="9yu-qi-LAX">
+                                <rect key="frame" x="20" y="357" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKl-GD-okQ">
+                                <rect key="frame" x="20" y="421" width="560" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Tambah">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="storeBarang:" destination="RKR-Ny-JHz" eventType="touchUpInside" id="fL9-CL-HH6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2XD-UR-Y1K">
+                                <rect key="frame" x="23" y="174" width="557" height="39"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="1" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="RCk-ya-6OK" firstAttribute="centerX" secondItem="2IN-Jq-jbW" secondAttribute="centerX" id="bCW-Tm-feP"/>
+                            <constraint firstItem="WMh-k4-Uen" firstAttribute="centerX" secondItem="2IN-Jq-jbW" secondAttribute="centerX" id="bFp-eX-O5d"/>
+                            <constraint firstItem="9yu-qi-LAX" firstAttribute="centerX" secondItem="2IN-Jq-jbW" secondAttribute="centerX" id="dWs-BK-6vo"/>
+                            <constraint firstItem="Spt-ah-ZgK" firstAttribute="centerX" secondItem="2IN-Jq-jbW" secondAttribute="centerX" id="nLB-V2-U5T"/>
+                            <constraint firstItem="2XD-UR-Y1K" firstAttribute="centerX" secondItem="2IN-Jq-jbW" secondAttribute="centerX" id="nr5-W4-Zhw"/>
+                            <constraint firstItem="uKl-GD-okQ" firstAttribute="centerX" secondItem="2IN-Jq-jbW" secondAttribute="centerX" id="pls-mV-HPg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="field_harga" destination="9yu-qi-LAX" id="0zz-eM-PRH"/>
+                        <outlet property="field_merkbarang" destination="RCk-ya-6OK" id="lWN-QC-NJP"/>
+                        <outlet property="field_namabarang" destination="Spt-ah-ZgK" id="XFC-p3-1KI"/>
+                        <outlet property="labelMessage" destination="2XD-UR-Y1K" id="GPf-op-V3y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4jK-k8-EQF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="718" y="188"/>
+        </scene>
+        <!--Lihat Barang Controller-->
+        <scene sceneID="KvL-wb-ckt">
+            <objects>
+                <viewController storyboardIdentifier="lihat_barang" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6j5-2h-tfK" customClass="LihatBarangController" customModule="kooperasimercubuana" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zgs-ug-i2c"/>
+                        <viewControllerLayoutGuide type="bottom" id="yTi-Ui-wd4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LNM-ND-BQY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZzO-5r-Hy5">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="38"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Kembali">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="sc0-ag-MeW"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bN9-GN-sjB">
+                                <rect key="frame" x="0.0" y="37" width="600" height="563"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZzO-5r-Hy5" firstAttribute="centerX" secondItem="LNM-ND-BQY" secondAttribute="centerX" id="FX7-Gm-uYr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="bN9-GN-sjB" id="UaT-ZN-ocb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="od8-TI-e8j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1347" y="188"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="sc0-ag-MeW"/>
+    </inferredMetricsTieBreakers>
 </document>

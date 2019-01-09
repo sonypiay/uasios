@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBBDD48021E67D62004EE612 /* LihatBarangController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBDD47F21E67D62004EE612 /* LihatBarangController.swift */; };
 		CBD798B721E65BB600C5EEC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD798B621E65BB600C5EEC5 /* AppDelegate.swift */; };
 		CBD798B921E65BB600C5EEC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD798B821E65BB600C5EEC5 /* ViewController.swift */; };
 		CBD798BC21E65BB600C5EEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD798BA21E65BB600C5EEC5 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		CBD798C121E65BB600C5EEC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD798BF21E65BB600C5EEC5 /* LaunchScreen.storyboard */; };
 		CBD798CC21E65BB700C5EEC5 /* kooperasimercubuanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD798CB21E65BB700C5EEC5 /* kooperasimercubuanaTests.swift */; };
 		CBD798D721E65BB700C5EEC5 /* kooperasimercubuanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD798D621E65BB700C5EEC5 /* kooperasimercubuanaUITests.swift */; };
+		CBD798E521E65BF300C5EEC5 /* TambahBarangController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD798E421E65BF300C5EEC5 /* TambahBarangController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CBBDD47F21E67D62004EE612 /* LihatBarangController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LihatBarangController.swift; sourceTree = "<group>"; };
 		CBD798B321E65BB600C5EEC5 /* kooperasimercubuana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kooperasimercubuana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD798B621E65BB600C5EEC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBD798B821E65BB600C5EEC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		CBD798D221E65BB700C5EEC5 /* kooperasimercubuanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kooperasimercubuanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD798D621E65BB700C5EEC5 /* kooperasimercubuanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kooperasimercubuanaUITests.swift; sourceTree = "<group>"; };
 		CBD798D821E65BB700C5EEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD798E421E65BF300C5EEC5 /* TambahBarangController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TambahBarangController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				CBD798B621E65BB600C5EEC5 /* AppDelegate.swift */,
+				CBD798E421E65BF300C5EEC5 /* TambahBarangController.swift */,
 				CBD798B821E65BB600C5EEC5 /* ViewController.swift */,
+				CBBDD47F21E67D62004EE612 /* LihatBarangController.swift */,
 				CBD798BA21E65BB600C5EEC5 /* Main.storyboard */,
 				CBD798BD21E65BB600C5EEC5 /* Assets.xcassets */,
 				CBD798BF21E65BB600C5EEC5 /* LaunchScreen.storyboard */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBD798B921E65BB600C5EEC5 /* ViewController.swift in Sources */,
+				CBD798E521E65BF300C5EEC5 /* TambahBarangController.swift in Sources */,
 				CBD798B721E65BB600C5EEC5 /* AppDelegate.swift in Sources */,
+				CBBDD48021E67D62004EE612 /* LihatBarangController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +490,7 @@
 				CBD798DD21E65BB700C5EEC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBD798DE21E65BB700C5EEC5 /* Build configuration list for PBXNativeTarget "kooperasimercubuanaTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				CBD798E021E65BB700C5EEC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBD798E121E65BB700C5EEC5 /* Build configuration list for PBXNativeTarget "kooperasimercubuanaUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				CBD798E321E65BB700C5EEC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
